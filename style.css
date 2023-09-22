@@ -60,10 +60,7 @@ img {
      margin-top: 20px;
 }
 .container{
-    margin: 30px;
-    margin-bottom: 100px;
- 
-
+    margin: 30px 30px 100px 30px;
 
 }
 
@@ -100,7 +97,10 @@ img {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 
-
+.container {
+    margin: 0 150px 100px 150px;
+}
+}
 
 
 /*********************************************************************
@@ -109,4 +109,5 @@ img {
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 729px or larger -- so desktop */
+
 }
