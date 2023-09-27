@@ -79,12 +79,17 @@ img {
 
 }
 
-#double li  { 
+#triple li  { 
     width:33%;
     line-height:1.5em;
     float:left;
     display:inline;
 } 
+.titlebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
